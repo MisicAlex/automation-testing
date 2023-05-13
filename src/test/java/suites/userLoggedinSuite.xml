@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functionalities with logged in user">
+    <parameter name="browser" value="Chrome"></parameter>
+    <test name="User">
+        <classes>
+            <class name="testsWithLogin.LogoutTest"></class>
+            <class name="testsWithLogin.AddRandomItemToCart"></class>
+            <class name="testsWithLogin.RemoveItemFromCart"></class>
+            <class name="testsWithLogin.PriceTest"></class>
+        </classes>
+    </test>
+</suite>
